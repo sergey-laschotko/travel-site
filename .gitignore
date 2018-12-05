@@ -11,7 +11,6 @@
 *.sass-cache
 node_modules/
 .tmp/
-package-lock.json
 
 # OS or Editor folders
 .DS_Store
