@@ -9,9 +9,7 @@ gulp.task("watch", function () {
         }
     });
 
-    gulp.watch("./app/index.html", function () {
-        browserSync.reload();
-    });
+    gulp.watch("./app/index.html", browserSync.reload);
 
     gulp.watch("./app/assets/styles/**/*.css", gulp.series("cssInject"));
 });
