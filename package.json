@@ -19,6 +19,7 @@
   "dependencies": {
     "@babel/plugin-proposal-class-properties": "^7.2.1",
     "jquery": "^3.3.1",
+    "jquery-smooth-scroll": "^2.2.0",
     "normalize.css": "^8.0.1",
     "waypoints": "^4.0.1"
   },
